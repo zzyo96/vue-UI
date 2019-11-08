@@ -1,6 +1,5 @@
 # 这是一个vue UI 组件
-
-https://www.travis-ci.org/zzyo96/vue-UI.svg?branch=master
+[![Build Status](https://www.travis-ci.org/zzyo96/vue-UI.svg?branch=master)](https://www.travis-ci.org/zzyo96/vue-UI)
 
 ## 开始使用
 
