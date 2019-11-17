@@ -48,8 +48,8 @@ new Vue({
   created(){
   },
   methods: {
-    yyy(data){
-      console.log('yyy')
+    yyy(){
+
       console.log(data)
     },
     showToast1(){
