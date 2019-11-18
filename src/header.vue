@@ -6,5 +6,6 @@
 
 <style lang="scss" scoped>
     .header {
+        background: #ddd;
     }
 </style>

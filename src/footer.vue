@@ -6,5 +6,6 @@
 
 <style lang="scss" scoped>
     .footer {
+        background: #aaa;
     }
 </style>

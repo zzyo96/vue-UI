@@ -36,7 +36,7 @@
     .tabs-pane {
         padding: 1em;
         &.active {
-            background: red;
+            background: #ddd;
         }
     }
 </style>
