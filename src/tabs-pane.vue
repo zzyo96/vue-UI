@@ -1,7 +1,7 @@
 <template>
-    <div class="tabs-pane" :class="classes" v-if="active">
-        <slot></slot>
-    </div>
+  <div class="tabs-pane" :class="classes" v-if="active">
+    <slot></slot>
+  </div>
 </template>
 <script>
   export default {
@@ -33,10 +33,9 @@
   }
 </script>
 <style lang="scss" scoped>
-    .tabs-pane {
-        padding: 1em;
-        &.active {
-            background: #ddd;
-        }
+  .tabs-pane {
+    padding: 1em;
+    &.active {
     }
+  }
 </style>

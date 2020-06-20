@@ -7,7 +7,8 @@ import Row from './row'
 import Col from './col'
 import Layout from './layout'
 import Header from './header'
-import Sider from './sider'
+import Slides from './slides'
+import SlidesItem from './slides-item'
 import Content from './content'
 import Footer from './footer'
 import Toast from './toast'
@@ -30,7 +31,8 @@ Vue.component('g-layout', Layout)
 Vue.component('g-header', Header)
 Vue.component('g-content', Content)
 Vue.component('g-footer', Footer)
-Vue.component('g-sider', Sider)
+Vue.component('g-slides', Slides)
+Vue.component('g-slides-item', SlidesItem)
 Vue.component('g-toast', Toast)
 Vue.use(plugin)
 Vue.component('g-tabs', Tabs)

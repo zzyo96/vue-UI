@@ -1,29 +1,33 @@
 module.exports = {
     base:'/vue-UI/',
     title: 'vue-UI',
-    description: '一个简单的框架',
+    description: '一个好用的UI框架',
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
-            { text: '文档', link: '/安装.md' },
+            // { text: '文档', link: '/安装.md' },
             { text: '交流', link: 'https://google.com' },
         ],
         sidebar: [
             {
                 title: '入门',
+                collapsable: false,
                 children: [
-                    ['/安装', '安装'],
-                    [ '/快速上手','快速入门']
+                  '/install/',
+                  '/get-started/',
                 ]
             },
             {
                 title: '组件',
+                collapsable: false,
                 children: [
-                    ['/components/button', 'Button'],
-                    ['/components/tabs', 'Tabs'],
-                    ['/components/input', 'Input'],
-                    ['/components/layout', 'Layout'],
-                    ['/components/toast', 'Toast']
+                  '/components/button',
+                  '/components/tabs',
+                  '/components/input',
+                  '/components/grid',
+                  '/components/layout',
+                  '/components/toast',
+                  '/components/popover'
                 ]
             }
         ]

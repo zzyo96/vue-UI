@@ -1,7 +1,7 @@
 <template>
-    <div class="tabs-body">
-        <slot></slot>
-    </div>
+  <div class="tabs-body">
+    <slot></slot>
+  </div>
 </template>
 <script>
   export default {
@@ -12,6 +12,6 @@
   }
 </script>
 <style>
-    .tabs-body {
-    }
+  .tabs-body {
+  }
 </style>
