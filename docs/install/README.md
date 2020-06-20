@@ -8,9 +8,3 @@ title: 安装
 ```bash
 npm i --save vue-ui-zzyo
 ```
-
-或
-
-```bash
-npm i --save vue-ui-zzyo
-```
