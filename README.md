@@ -1,5 +1,7 @@
 # 这是一个vue UI 组件
 [![Build Status](https://www.travis-ci.org/zzyo96/vue-UI.svg?branch=master)](https://www.travis-ci.org/zzyo96/vue-UI)
+
+## 写在前面
 HI, 我是xyue.wang， 这是我在学习vue过程中实现的基于vue的一套UI框架，欢迎指正！
 
 ## 开始使用
